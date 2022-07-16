@@ -1,0 +1,98 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 7,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 9,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 10,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 11,
+      "firstName": "selman",
+      "lastName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 14,
+      "firstName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 15,
+      "firstName": "ağırman",
+      "email": null
+    },
+    {
+      "id": 16,
+      "firstName": "selman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 17,
+      "firstName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 18,
+      "firstName": "selman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 19,
+      "firstName": "ağırman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 20,
+      "firstName": "ağırman",
+      "lastName": "selman",
+      "email": "agirmanselman477@gmail.com"
+    },
+    {
+      "id": 21,
+      "firstName": "sinan",
+      "lastName": "zeyrek",
+      "email": "agirman477@gmail.com"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

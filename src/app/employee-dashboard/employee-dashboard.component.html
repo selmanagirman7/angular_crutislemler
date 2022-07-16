@@ -1,0 +1,90 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h1 class="abc" style="color:aliceblue">angular ile crud işlemler</h1>
+        <div class="d-flex">
+            <button (click)="clickAddEmployee()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="s1" class="btn btn-success">Add </button>
+        </div>
+    </div>
+
+</nav>
+<section>
+    <!--for demo wrap-->
+    <h1>information Of Added Persons</h1>
+    <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">firstName</th>
+                    <th scope="col">lastName</th>
+                    <th scope="col">email</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr *ngFor="let row of employeeData">
+                    <td>{{row.id}}</td>
+                    <td>{{row.firstName}}</td>
+                    <td>{{row.lastName}}</td>
+                    <td>{{row.email}}</td>
+                    <td>
+                        <button (click)="onEdit(row)" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info">Edit</button>
+                        <button (click)="deleteEmployee(row)" class="btn btn-danger mx-3">Delete</button>
+
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<!-- follow me template -->
+<div class="made-with-love">
+    Made with
+    <i>♥</i> by
+    <a target="_blank" href="selman.epizy.com">Selman Ağırman</a>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Kişi Ekle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="formValue">
+                    <div class="mb-3">
+                        <label for="" class="form-label">First Name</label>
+                        <input type="text" formControlName="firstName" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Last Name</label>
+                        <input type="text" formControlName="lastName" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="cancel" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                <button (click)="postEmployeeDetails()" *ngIf="showAdd" id="btn" class="btn btn-success">Add</button>
+                <button type="button" (click)="updateEmployeeDetails()" *ngIf="showUpdate" class="btn btn-warning">Update</button>
+            </div>
+        </div>
+    </div>
+</div>

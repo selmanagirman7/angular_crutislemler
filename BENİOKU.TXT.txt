@@ -1,0 +1,12 @@
+Merhabalar bu case de  angular ile basit işlemler yaptım 
+ekleme silme ve güncelleme işlemlerini yapan  basit crut  işlemlerini yapacak bir uygulama yazdım  
+veritabanı olarak jsonu seçtim seçme nedenim gerçek bir apiden hizmet alır gibi data üzerinde çalışmasından dolayı seçtim
+Json fake data ile add, update ve delete işlemlerini yaptım öncelikle uygulamayı çalıştırmak için fake datayı ayaklandırmanız
+lazım bunun için terminali açıp ilgili dosyaya locate olarak  “json-server --watch db.json “ bunu yazıp ayaklandırmanız lazım
+daha sonra yine terminalden ilgili dosyaya locate olduktan sonra “ng serve --open” diyerek projeyi çalıştırmış olacaksınız 
+burda add kısmından kişinin ad , soyad  ve mail adresini alıp model form kulanarak tabloya kaydedecek  ve daha sonra isteğimize bağlı olarak silip 
+günceleme yapcak bir uygulama yazdım tasarımda özgür olduğumdan dolayı böyle bir tasarım yaptım ama tabiki isteğe bağlı bir tasarımda yapabilirdim 
+ İyi günler dilerim.  
+(düzenleme işlemi yaparken sayfayı yenileyiniz lütfen)
+
+

@@ -1,0 +1,23 @@
+{
+    "posts": [{
+            "id": 1,
+            "title": "json-server",
+            "title1": "json-server",
+            "author": "typicode"
+        },
+        {
+            "id": 2,
+            "firstName": "selman",
+            "lastName": "ağırman",
+            "email": "agirmanselman477@gmail.com"
+        }
+    ],
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+    "profile": {
+        "name": "typicode"
+    }
+}
